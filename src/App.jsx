@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import Navigation from './components/Navigation';
+import Footer from './components/Footer';
 import Home from './components/Home';
 import InvisibleConcierge from './components/concepts/InvisibleConcierge';
 import PropelX from './components/concepts/PropelX';
@@ -26,6 +27,7 @@ function App() {
     <div className="app">
       <Navigation currentView={currentView} setCurrentView={setCurrentView} />
       {renderView()}
+      <Footer />
     </div>
   );
 }
