@@ -8,7 +8,6 @@ const Home = ({ setCurrentView }) => {
             <section className="home-hero">
                 <div className="home-hero-content">
                     <h1>The Venture Lab</h1>
-                    <p className="subtitle">Deven Spear & Ashley Mohan</p>
                     <p className="description">
                         Merging Visionary Tech with Luxury Experience.
                         We are testing the future of high-end living, PropTech, and digital transformation.

@@ -27,7 +27,7 @@ const Navigation = ({ currentView, setCurrentView }) => {
         <nav className={`navigation ${isScrolled ? 'scrolled' : ''}`}>
             <div className="nav-container">
                 <div className="nav-logo" onClick={() => setCurrentView('home')}>
-                    DS & AM
+                    AM & DS
                 </div>
 
                 <div className="desktop-menu">

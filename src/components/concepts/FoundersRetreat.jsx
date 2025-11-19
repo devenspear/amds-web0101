@@ -6,6 +6,15 @@ const FoundersRetreat = () => {
     return (
         <div className="concept-page retreat">
             <section className="concept-hero">
+                <div className="retreat-background">
+                    <div className="sunrise-gradient"></div>
+                    <div className="mountain-layer mountain-back"></div>
+                    <div className="mountain-layer mountain-mid"></div>
+                    <div className="mountain-layer mountain-front"></div>
+                    <div className="floating-light light-1"></div>
+                    <div className="floating-light light-2"></div>
+                    <div className="floating-light light-3"></div>
+                </div>
                 <div className="hero-content">
                     <div className="badge">Executive Leadership</div>
                     <h1>The Founder's Retreat</h1>

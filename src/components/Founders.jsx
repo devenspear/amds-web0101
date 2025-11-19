@@ -18,7 +18,7 @@ const Founders = () => {
                         <div className="founder-info">
                             <h3>Ashley Mohan</h3>
                             <span className="founder-role">Luxury & Experience</span>
-                            <p>A powerhouse at the intersection of Big Tech and Luxury Real Estate. Ashley defines the high-touch service standards, leveraging deep consumer insights from Google and Peninsula Papagayo.</p>
+                            <p>A strategist and luxury-market operator known for translating complex vision into crisp, high-impact execution. With more than a decade inside Google, she honed an uncommon blend of analytical depth and hospitality-grade experience design—expertise she now brings to luxury real estate, placemaking, and brand transformation. She led a $750M global portfolio as Head of Industry for Google Ads, advising Fortune 500 leaders across Travel, Retail, and Tech on unlocking next-level digital performance. Earlier in her career, she helped develop a $2B ultra-luxury hospitality portfolio, including marquee resort destinations and flagship branded residences.</p>
                         </div>
                     </div>
 
@@ -29,7 +29,7 @@ const Founders = () => {
                         <div className="founder-info">
                             <h3>Deven Spear</h3>
                             <span className="founder-role">Vision & Technology</span>
-                            <p>A serial entrepreneur and visionary leader in PropTech and Web3. Deven brings the infrastructure to secure data and automate the complex logistics of luxury asset management.</p>
+                            <p>A multidisciplinary futurist and serial founder operating at the intersection of real estate, wellness, AI, and Web3. He translates frontier technologies into practical, elegant systems that elevate how people live, invest, and experience place. A veteran of venture-backed SaaS and next-gen PropTech, he designs intelligent architectures that secure data, streamline operations, and unlock new economic models. His work blends timeless design intuition with cutting-edge computation, creating pathways for developers and brands ready to build the future.</p>
                         </div>
                     </div>
                 </div>
