@@ -1,0 +1,100 @@
+.founders {
+    padding: 8rem 2rem;
+    background-color: var(--color-bg);
+}
+
+.founders-container {
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.section-label {
+    color: var(--color-accent);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 0.875rem;
+    margin-bottom: 1rem;
+    display: block;
+}
+
+.founders h2 {
+    font-size: 3rem;
+    margin-bottom: 5rem;
+}
+
+.founders-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 4rem;
+}
+
+.founder-card {
+    text-align: left;
+}
+
+.founder-image-container {
+    width: 100%;
+    height: 400px;
+    margin-bottom: 2rem;
+    position: relative;
+    overflow: hidden;
+    background: #1a2332;
+    /* Fallback background */
+}
+
+.founder-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: top center;
+    filter: grayscale(100%);
+    /* Ensure they stay grayscale */
+    transition: transform 0.5s ease;
+}
+
+.founder-card:hover .founder-image {
+    transform: scale(1.05);
+}
+
+.founder-image-container::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom, transparent 0%, rgba(10, 15, 28, 0.4) 100%);
+    pointer-events: none;
+}
+
+.founder-info h3 {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+.founder-role {
+    display: block;
+    color: var(--color-accent);
+    font-family: var(--font-body);
+    font-weight: 500;
+    margin-bottom: 1.5rem;
+    text-transform: uppercase;
+    font-size: 0.875rem;
+    letter-spacing: 1px;
+}
+
+.founder-info p {
+    color: rgba(255, 255, 255, 0.7);
+    line-height: 1.8;
+}
+
+@media (max-width: 768px) {
+    .founders h2 {
+        font-size: 2.5rem;
+    }
+
+    .founder-image-container {
+        height: 300px;
+    }
+}
