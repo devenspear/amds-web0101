@@ -7,9 +7,18 @@ import PropelX from './components/concepts/PropelX';
 import TokenizedTier1 from './components/concepts/TokenizedTier1';
 import MicroMoment from './components/concepts/MicroMoment';
 import FoundersRetreat from './components/concepts/FoundersRetreat';
+import PasswordGate from './components/PasswordGate';
 
 function App() {
   const [currentView, setCurrentView] = useState('home');
+  const [isUnlocked, setIsUnlocked] = useState(() => {
+    return localStorage.getItem('amds-unlocked') === 'true';
+  });
+
+  const handleUnlock = () => {
+    localStorage.setItem('amds-unlocked', 'true');
+    setIsUnlocked(true);
+  };
 
   const renderView = () => {
     switch (currentView) {
@@ -22,6 +31,10 @@ function App() {
       default: return <Home setCurrentView={setCurrentView} />;
     }
   };
+
+  if (!isUnlocked) {
+    return <PasswordGate onUnlock={handleUnlock} />;
+  }
 
   return (
     <div className="app">
